@@ -1,0 +1,40 @@
+@import "reset";
+
+.container {
+    width: 700px;
+    margin: 50px auto;
+
+    table {
+        border-collapse: collapse;
+        width: 100%;
+
+        tr {
+            border: 1px solid white;
+            th,
+            td {
+                text-align: left;
+                padding: 8px;
+                border: 2px solid white;
+            }
+            td:not(:first-child){
+                text-align: right;
+            }
+        }
+
+        thead {
+            tr {
+                background-color: #6ab04c;
+                color: white;              
+            }
+        }
+        tbody {
+            tr:nth-child(even) {
+                background-color: #5ee6245c;
+            }
+            tr:nth-child(odd) {
+                background-color: #6ab04c2e;
+            }
+           
+        }
+    }
+}

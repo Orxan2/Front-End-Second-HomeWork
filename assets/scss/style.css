@@ -1,0 +1,56 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.create, .login {
+  margin: 50px auto;
+}
+
+.create p, .login p {
+  text-align: center;
+}
+
+.create p a, .login p a {
+  color: mediumblue;
+}
+
+form {
+  width: 500px;
+  margin: auto;
+}
+
+form input {
+  padding: 7px;
+  margin: 10px 5px;
+}
+
+form input:focus {
+  outline: none;
+  border: 1px solid #44bd32;
+}
+
+form input:not([type=checkbox]) {
+  width: 100%;
+}
+
+form input[type=submit] {
+  background-color: #44bd32;
+  color: #fff;
+  border: none;
+}
+
+form .receive {
+  margin-left: 10px;
+}
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,40 @@
+@import 'reset';
+
+.create,.login{
+    margin: 50px auto;
+   p{
+    text-align: center;
+
+    a{
+        color: mediumblue;
+    }
+   }
+   
+}
+
+form{
+width: 500px;
+margin: auto;
+
+input{
+    padding: 7px;
+    margin: 10px 5px;
+
+    }
+    input:focus{
+        outline: none;
+        border: 1px solid #44bd32;
+    }
+    input:not([type=checkbox]){
+        width: 100%;       
+} 
+input[type=submit]{
+    background-color: #44bd32;   
+    color: #fff;  
+    border: none; 
+}
+
+.receive{
+    margin-left: 10px;
+}
+}   

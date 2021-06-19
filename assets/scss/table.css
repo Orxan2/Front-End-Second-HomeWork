@@ -1,0 +1,53 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.container {
+  width: 700px;
+  margin: 50px auto;
+}
+
+.container table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.container table tr {
+  border: 1px solid white;
+}
+
+.container table tr th,
+.container table tr td {
+  text-align: left;
+  padding: 8px;
+  border: 2px solid white;
+}
+
+.container table tr td:not(:first-child) {
+  text-align: right;
+}
+
+.container table thead tr {
+  background-color: #6ab04c;
+  color: white;
+}
+
+.container table tbody tr:nth-child(even) {
+  background-color: #5ee6245c;
+}
+
+.container table tbody tr:nth-child(odd) {
+  background-color: #6ab04c2e;
+}
+/*# sourceMappingURL=table.css.map */

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up Page</title>
+    <link rel="stylesheet" href="assets/scss/style.css">
+    <link rel="shortcut icon" href="assets/img/sign.png" type="image/x-icon">
+</head>
+
+<body>
+    <div class="create">
+        <p><span>Have an account?</span> <a href="LogIn.html">Log in</a></p>
+    </div>
+    <form action="LogIn.html" method="GET">
+        <h1>Sign Up</h1>
+        <label id="fullnamelbl" for="Fullname">
+            <input id="Fullname" name="fullname" type="text" required placeholder="Name Surname"/>
+        </label>
+        <label  for="Email">
+            <input id="Email" name="email" type="email" required placeholder="Email" />
+        </label>
+        <label for="Re-enter-email">
+            <input id="Re-enter-email" name="re-enter-email" type="email" required placeholder="Re-enter email" />
+        </label>  
+        <label for="Password">
+            <input id="Password" name="password" type="password" required placeholder="Password" />
+        </label>
+        <label for="Re-enter password">
+            <input id="Re-enter password" name="re-enter password" required type="password" placeholder="Re-enter password" />
+        </label>        
+                <label for="check">
+                    <input type="checkbox" name="receive" required id="check" />
+                    <span class="receive">Receive our weekly newsletter and other occasional updates</span>
+                </label>
+        <input id="send" type="submit" required value="Create account">
+    </form>
+
+</body>
+
+</html>
